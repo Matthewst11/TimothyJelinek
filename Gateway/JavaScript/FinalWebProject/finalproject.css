@@ -1,0 +1,124 @@
+* {box-sizing: border-box; }
+body {background-color: white;
+       color: black;
+       font-family: Tahoma, Arial, Sans-Serif;
+	   margin: 0;}
+ header { background-color: white; 
+     color: black;
+	 background-image: url("Logo.gif");
+	 font-size: 150%;
+	padding-bottom: 10px;
+	padding-left: 15%;
+	padding-right: 2em;
+	background-repeat: no-repeat;
+	height: 50%;}
+h1{padding-top: 75px;}
+header a{text-decoration: none;}
+header a:link{color: black;}
+header a:visited{color: #00008B;}
+header a:hover{color: #808080;}
+nav {color: black;
+     font-size: 90%;}
+nav a {text-decoration: none;}
+nav a:link{color: black;}
+nav a:visited{color: #00008B;}
+nav a:hover{color: black;}
+nav ul{display: flex;
+	   font-size: 1.25em;
+       list-style-type: none;
+	   margin: 0;
+	   padding: 0;}
+nav li{padding-bottom: .25em;
+	   width: 10%}
+main{margin-left: 2.5%;
+     margin-bottom: 2.5%;
+	 margin-right: 2.5%;}
+#gaming{height: 300px;
+width: 499px;
+	      background-size: 100% 100%;
+          background-repeat:no-repeat;
+		  background-image: url("gaming.jpg");}		 
+#playstations{height: 180px;
+	      background-image: url("playstation.png");
+		  background-repeat: no-repeat;}
+#xboxs{height: 300px;
+	      background-image: url("xbox.jpg");
+		  background-repeat: no-repeat;}
+main ul{padding-left: 2em;}
+#mobile{height: 300px;
+	      background-image: url("mobile.jpg");
+		  background-repeat: no-repeat;}
+#desktop{height: 295px;
+	      background-image: url("desktop.jpg");
+		  background-repeat: no-repeat;}
+table{width: 90%;
+      border-spacing: 0;
+      background-color: #90EE90;}
+th, td{padding: 10px;}
+tr:nth-of-type(odd){
+		background-color: #00eb00;}
+footer {clear: both;
+	background-color: white;
+    font-size: .6em;
+    font-style: italic;
+	text-align: center;
+	border-top: 2px solid black;}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D3D3D3;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;}
+title{font-size: 160px;
+margin-left: 5px;}
+audio{display: block;
+      margin-top: 1em;}
+/* form{display: flex;
+     flex-direction: column;
+	 padding-left: 1em;
+     width: 80%;}
+	 */
+/*label{float:left;
+      display: block;
+	  text-align: right;
+	  width: 8em;
+      padding-right: 1em;}
+	  */
+form {
+		width: 600px;
+		margin: 0 auto;
+	 }
+aside {
+		float: left;
+}
+@media (max-width: 600px){
+	header{text-align: center;
+	padding-left: 0;}
+	h1{font-size: 3em;}
+	nav{font-size: 0.73em;}
+	nav ul{justify-content: space-around;}
+	nav li{border-bottom: none;}
+	#flow{display: flex;
+		  flex-direction: row;}
+	#mobile{display: none;}
+	#desktop{display: inline}
+	h4{margin-left: 10%;
+       margin-right: 10%;}}
+@media (max-width: 1024px){
+	@supports (display: grid){
+		header{ grid-area: header;}
+		nav{ grid-area: nav;}
+		main{ grid-area: main}
+		footer{ grid-area: footer;}
+		#wrapper{ display:grid;
+	          grid-template:
+			  "header header"
+			  "nav main"
+"footer footer"}}}

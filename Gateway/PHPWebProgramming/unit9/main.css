@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    padding: 1em;
+    background: white;
+    border: 2px solid navy;
+}
+h1 {
+    margin-top: 0;
+    color: navy;
+}
+/*label {
+    width: 4em;
+    float: left;
+    padding-bottom: .5em;
+    font-size: 1.2em;
+}*/
+#buttons input {
+    margin-bottom: .5em;
+}
+.button{
+    background-color: navy;
+    color: white;
+    font-size: 1.5em;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+br {
+    clear: left;
+}
+select {
+    width: 50%;
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    font-size: 1.2em;
+}
+#cost {
+    color: red;
+}

@@ -1,0 +1,21 @@
+<form formGroup="myForm" ngSubmit="onSubmit()">
+    <label>ID  </label>
+    <input formControlName="ID" readonly><br>
+    <label>Flight Number  </label>
+    <input formControlName="FlightNo"><br>
+    <label>Airline  </label>
+    <input formControlName="Airline"><br>
+    <label>Trip Type  </label>
+    <input type="radio" name="triptype" value="one-way"> One-Way
+    <input type="radio" name="triptype" value="round"> Round
+    <input type="radio" name="triptype" value="multiple"> Multiple<br>
+    <label>Departure Airport  </label>
+    <input formControlName="departureAirport"><br>
+    <label>Arrival Airport  </label>
+    <input formControlName="arrivalAirport"><br>
+    <label>Departure Date  </label>
+    <input formControlName="departDate"><br>
+    <label>Return Date  </label>
+    <input name="returndate"><br>
+    <button name="submit">Submit</button>
+</form>

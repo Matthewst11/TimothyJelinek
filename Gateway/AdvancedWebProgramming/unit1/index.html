@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Profile</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+  $("#hide").click(function(){
+    $("#media").hide();
+  });
+  $("#show").click(function(){
+    $("#media").show();
+  });
+}); 
+</script>
+</head>
+<body>
+    <header>
+        <img id="selfie" src = "IMG-1303.jpg" alt = "Picture of me">
+        <h1 id ="motto">I'm me.</h1>
+    </header>
+    <main>
+    <br>
+    <div id = "nav">
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+</div>
+<p>Hello and welcome to my webpage.  This page is to show that I can link a working video and a working sound file and use javascript to show/hide them.  I look forward to learning more in Advanced Web Programming!
+    Hopefully my code works right.  Maybe I'll have to watch some videos to learn more.
+</p>
+    <section>
+        <h2>Multimedia Content</h2>
+            <button id = "show" class="button">Show</button>
+            <button id = "hide" class = "button">Hide</button>
+        <div id="media">
+            <video src="lighthouse.ogv" controls id = "video">
+                Video
+            </video>
+            <audio controls ="controls">
+                <source src="podcast.mp3" type="audio/mpeg" id = "sound">
+                <a href="podcast.mp3">Download</a>MP3
+                </audio>
+        </div> 
+</section>
+
+</main>
+<footer>
+	<small>Timothy Jelinek <i><a href="mailto:jelinekt2@mail.gtc.edu"> jelinekt2@mail.gtc.edu</a> CopyRight &copy; Advanced Web Programming<br></i>
+</small>
+</footer>
+</body>
+</html>

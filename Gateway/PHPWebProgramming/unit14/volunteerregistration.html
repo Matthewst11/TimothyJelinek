@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Potluck Registration</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<main>
+    <h1>Enter your information below to sign up for potluck dinner</h1>
+    <form  action="signup.php" method="post">
+        <p>
+        <label>First Name:</label>
+        <input type="text" name = "firstname"><br>
+    </p>
+    <p>
+        <label>Last Name:</label>
+        <input type="text" name = "lastname"><br>
+    </p>
+    <p>
+        <label>Department:</label>
+        <input type="text" name = "department"><br>
+    </p>
+    <p>
+        <label>Food:</label>
+        <input type="text" name = "food"><br>
+    </p>
+    <br>
+    <input type = "submit" class = "button" value = "Register">
+    <p><a href="showSignUpList.php">Show Registered Volunteers</a></p>
+    </form>
+    </main>
+</body>
+</html>

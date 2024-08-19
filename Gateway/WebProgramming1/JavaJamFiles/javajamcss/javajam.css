@@ -1,0 +1,18 @@
+body { background-color: #FCEBB6; 
+       color: #221811;
+       font-family: Tahoma, Arial, Sans-Serif; }
+ h1 { background-color: #D2B48C; 
+     color: #8C3826; 
+	line-height: 200%;
+	text-align: center;}
+h2 { color: #8C3826; }
+nav { font-weight: bold;
+      text-align: center; }
+footer {background-color: #D2B48C;
+    font-size: .6em;
+    font-style: italic; }
+#wrapper{background-color: #FEFAEB
+		 margin-left:auto;
+		 margin-right: auto;
+		 width:80%;}
+		 

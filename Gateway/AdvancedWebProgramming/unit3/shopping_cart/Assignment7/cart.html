@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Book Shopping Cart</title>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/cart.js"></script>
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+
+    <table>
+        <caption><b>My Books</b></caption>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Qty</th>
+                <th>UnitPrice</th>
+                <th>$UnitPrice</th>
+                <th>Line Total</th>
+                <th>Total $ <span id="total"></span></th>
+
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    <button id="new">New</button>
+                </td>
+                <td colspan="3">
+                    <button id="save">Save</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <b>Book Count : <span id="book-count"></span></b>
+</body>
+
+</html>

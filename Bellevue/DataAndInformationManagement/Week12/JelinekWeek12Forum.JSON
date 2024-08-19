@@ -1,0 +1,21 @@
+{"Customer":
+	[{"CUSTOMER_ID": 1,
+	  "CUSTOMER_NAME": "Patrick Nieland",
+	  "CUSTOMER_EMAIL": "pnieland@gmail.com",
+	  "Orders": [
+	  {"ORDER_ID": "A3453", "CUSTOMER_ID": 1, "AMOUNT": "$34.56"},
+	  {"ORDER_ID": "D453", "CUSTOMER_ID": 1, "AMOUNT": "$45.67"}
+	  ]
+	 },
+	 {"CUSTOMER_ID": 2,
+	  "CUSTOMER_NAME": "Sammy Smith",
+	  "CUSTOMER_EMAIL": "smith@hotmail.com",
+	  "Orders": [
+	  {"ORDER_ID": "D4455", "CUSTOMER_ID": 2, "AMOUNT": "$22.67"},
+	  {"ORDER_ID": "T669", "CUSTOMER_ID": 2, "AMOUNT": "$33.56"},
+	  {"ORDER_ID": "F444", "CUSTOMER_ID": 2, "AMOUNT": "$222.45"}
+	  ]
+	 }
+	]
+}
+	  

@@ -1,0 +1,24 @@
+body { background-color: #FCEBB6; 
+       color: #221811;
+       font-family: Arial, Verdana, sans-serif; }
+ h1 { background-color: #D2B48C; 
+     color: #8C3826; 
+	 line-height: 200%;
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-indent: 1em;
+	 text-shadow: 3px 3px 5px #000000; }
+h2 { background-color: #FCEBB6; 
+     color: #8C3826; 
+	 font-family: Georgia, "Times New Roman", serif;
+	 text-align: center;  }
+nav { font-weight: bold;
+      font-size: 1.25em;
+	  word-spacing: 1em; }
+nav a { text-decoration: none; }
+p { font-size: .90em;
+	text-indent: 3em; }
+ul { font-weight: bold; } 
+.feature { color: #C70000; }
+footer { color: #D2B48C;
+         font-size: .75em;
+         font-style: italic; }

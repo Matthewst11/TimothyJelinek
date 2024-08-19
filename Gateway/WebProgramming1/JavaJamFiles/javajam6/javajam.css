@@ -1,0 +1,85 @@
+* {box-sizing: border-box; }
+body { background-image: url("fadedroad50.jpg");
+	   background-repeat: no-repeat;
+	   background-color: #D2B48C; 
+       color: #221811;
+       font-family: Tahoma, Arial, Sans-Serif;
+	   margin: 0;}
+ header { background-color: #D2B48C; 
+     color: #231814;
+	line-height: 200%;
+	padding: 5px 0px;
+	padding-left: 105px;
+	background-image: url("cup.jpg");
+	background-repeat: no-repeat;
+	height: 128px;}
+header a{text-decoration: none;}
+header a:link{color: #231814;}
+header a:visited{color: #231814;}
+header a:hover{color: #FEF6C2;}
+h1{ font-size: 2em;}
+h2 { color: #8C3826;
+     padding-left: 3em;
+     padding-right: 2em; }
+nav {text-align: center;
+      font-size: 1.5em;}
+nav a {text-decoration: none;}
+nav a:link{color: #FEF6C2;}
+nav a:visited{color: #D2B48C;}
+nav a:hover{color: #CC9933;}
+nav ul{padding: 0;
+       margin: 0;
+	   font-size: 1.25em;
+       list-style: none;
+	   flex-direction: column}
+footer {background-color: #D2B48C;
+    font-size: .6em;
+    font-style: italic;
+	text-align: center;
+	padding: 1em;
+	border: #8C3826 solid 2px ;}
+#wrapper{background-color: #231814;
+		 min-width: 900px;
+		 max-width: 1280px;
+		 padding: 0;}
+h4{      background-color: #D2B48C;
+         font-size:1.2em;
+		 padding-left: .5em;
+		 padding-bottom: 0;
+		text-transform: uppercase;
+		border-bottom: 1;
+        padding-bottom: 0;}
+h3{      color: #8C3826;}
+dt{      color: #8C3826;}	 
+main{    padding-bottom: 2em;
+         display: block;
+		 background-color: #FEF6C2;}		
+.details{padding-left: 20%;
+		 padding-right: 20%;
+		 overflow: auto;}	
+img{     padding: 0px 10px;}	
+#homehero{background-size: 100% 100%;
+          background-repeat:no-repeat;
+          width: 300px;
+		  background-image: url("road.jpg");}		 
+#heromugs{background-size: 100% 100%;
+          background-repeat:no-repeat;
+          height: 300px;
+		  width: 900px;
+		  background-image: url("threemugs.jpg");}
+#heroguitar{background-size: 100% 100%;
+          background-repeat:no-repeat;
+          height: 300px;
+		  background-image: url("guitar.jpg");}
+main h2,h3,h4,p,div,ul,dl{padding-left: 1em;
+                          padding-right: 1em;}
+nav li{padding-top: .5em;
+       padding-bottom: .5em;
+	   padding-left: 1em;
+	   padding-right: 1em;
+	   width: 100%;
+border-bottom: 10px;}
+main ul{padding-left: 2em;}
+#mobile{display: inline;}
+#desktop{display: none;}
+

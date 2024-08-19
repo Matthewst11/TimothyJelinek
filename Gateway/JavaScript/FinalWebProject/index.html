@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gaming Information for Gamers</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="finalproject.css">
+<script src = "home.js" type = "module"></script>
+<meta name="description" content="This site has history of different systems used for gaming and popular games.">
+</head>
+<body>
+<header>
+<h1><a href="index.html">Gaming Information For Gamers</a></h1>
+</header>
+<nav>
+	<ul>
+	<li id ="toplinenav"><a href="index.html">Home</a></li> 
+	<li><a href="playstation.html">PlayStation</a></li>
+	<li><a href="xbox.html">Xbox</a></li>
+	<li><a href="desktop.html">Desktop</a></li>
+	<li id = "bottomlinenav"><a href="mobilegames.html">Mobile</a></li>
+	</ul>
+</nav>
+<main>
+	<script>
+		var name;
+		if(!name) {
+            // Ask visitor for a name
+            name = prompt("Enter Name: ");
+            localStorage.setItem('name',JSON.stringify(name));
+        } else {
+            // Display welcome back alert message with name
+			window.alert("Welcome back " + name + "!");
+		}
+	</script>
+ <div id= "gaming">
+ </div>
+<h2>About Gaming Information For Gamers:</h2>
+<p>Gaming Information For Gamers is a website that shares the history of many different devices video games are played on, 
+as well as popular games on each platform.  This website is people of all ages who play video games.
+<a href="#" onmouseover= "alert('If you know of any more popular games, please submit them through the form on the Mobile Page!');">Popular games not on the site</a>
+</p>
+<br>
+<p> A very popular and well known song is the opening theme for the nintendo wii:
+</p>
+<div>
+	<button id="btn-show-hide" class="red">Hide</button>
+</div>
+<div id="media" class="media-content">
+</div>
+<table>
+	<tr>
+		<th>PlayStation</th>
+		<td>Date first PlayStation was Released:<br>1994 - Original PlayStation </td>
+	</tr>
+	<tr>
+		<th>Xbox</th>
+		<td>Date first Xbox was Released:<br>2001 - Original Xbox</td>
+	</tr>
+	<tr>
+		<th>Desktop</th>
+		<td>Date first Desktop game was Released:<br>1962 - Spacewar!</td>
+	</tr>
+	<tr>
+		<th>Mobile</th>
+		<td>Date first Mobile game was Released:<br>1994 - Tetris</td>
+	</tr>
+ </table>
+</main>
+<br>
+<footer>
+	CopyRight &copy; 2021 Web Programming 1<br> 
+	<a href="mailto:gamergaminginformationunited@gmail.com">gamergaminginformationunited@gmail.com</a>
+</footer>
+</body>
+</html>

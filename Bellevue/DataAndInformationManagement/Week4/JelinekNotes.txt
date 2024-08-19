@@ -1,0 +1,11 @@
+customers -> Name, Address
+vehicles -> Customer, make, model, year
+repair -> Vehicle, customer, date, total cost
+mechanics -> Name, address, salary
+
+One customer can have many vehicles.
+One vehicle only belongs ton one customer.
+One vehicle can have many repairs.
+One repair only belongs to one vehicle.
+One mechanic can work on many repairs.
+One repair is worked on by only one mechanic.

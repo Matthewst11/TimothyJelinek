@@ -1,0 +1,18 @@
+* {box-sizing: border-box; }
+header{font-size: 110%;
+}
+header a{text-decoration: none;}
+header a:link{color: black;}
+header a:visited{color: black;}
+ nav {color: black;}
+nav a {text-decoration: none;}
+nav a:link{color: black;}
+nav a:visited{color: #00008B;}
+nav a:hover{color: black;}
+nav ul{display: flex;
+	  font-size: 1.25em;
+	  list-style-type: none;
+	  margin: 5%;}
+nav li{padding-bottom: .25em;
+	  width: 10%;}
+body{background-color: rgb(129, 127, 255);}

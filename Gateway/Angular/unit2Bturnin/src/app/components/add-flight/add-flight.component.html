@@ -1,0 +1,21 @@
+<form f="ngForm" ngSubmit="onSubmit(f)">
+    <label>ID  </label>
+    <input name="ID" minlength="1" maxlength="5" [value]="" required><br>
+    <label>Flight Number  </label>
+    <input name="FlightNo" minlength="5" maxlength="10"   [value]="" required><br>
+    <label>Airline  </label>
+    <input name="Airline" minlength="2" maxlength="25"   [value]="" required><br>
+    <label>Trip Type  </label>
+    <input type="radio" name="triptype" value="one-way"> One-Way
+    <input type="radio" name="triptype" value="round"> Round
+    <input type="radio" name="triptype" value="multiple"> Multiple<br>
+    <label>Departure Airport  </label>
+    <input name="departureairport" minlength="2"  maxlength="5"  [value]="" required><br>
+    <label>Arrival Airport  </label>
+    <input name="arrivalairport" minlength="2"  maxlength="5" [value]="" required><br>
+    <label>Departure Date  </label>
+    <input name="departdate" [value]="" required><br>
+    <label>Return Date  </label>
+    <input name="returndate" [value]="" required><br>
+    <button name="submit">Submit</button>
+</form>
